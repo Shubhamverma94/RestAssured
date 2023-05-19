@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Demo.Trello_Api">
+        <methods>
+          <include name="GetBoard"/>
+          <include name="DeleteBoard"/>
+          <include name="UpdateBoard"/>
+          <include name="CreateBoard"/>
+        </methods>
+      </class> <!-- Demo.Trello_Api -->
+      <class name="Demo.testNg001">
+        <methods>
+          <include name="bt"/>
+          <include name="testcase1"/>
+          <include name="at"/>
+          <include name="testcase2"/>
+        </methods>
+      </class> <!-- Demo.testNg001 -->
+      <class name="Demo.SimpleBooks">
+        <methods>
+          <include name="CreateBook"/>
+          <include name="deleteBook"/>
+          <include name="getBookDetails"/>
+          <include name="orderBook"/>
+          <include name="updateBookName"/>
+        </methods>
+      </class> <!-- Demo.SimpleBooks -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
